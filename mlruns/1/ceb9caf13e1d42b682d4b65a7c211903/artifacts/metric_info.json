@@ -1,0 +1,6 @@
+{
+  "RandomForestClassifier_score-2_X_train": "RandomForestClassifier.score(X=X_train, y=y_train)",
+  "RandomForestClassifier_score-3_X_test": "RandomForestClassifier.score(X=X_test, y=y_test)",
+  "RandomForestClassifier_score_X_test": "RandomForestClassifier.score(X=X_test, y=y_test)",
+  "root_mean_squared_error_X_test": "root_mean_squared_error(y_true=<ndarray>, y_pred=y_test)"
+}

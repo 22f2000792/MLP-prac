@@ -1,0 +1,38 @@
+artifact_path: /home/iitm/Desktop/MLP-prac/mlruns/1/models/m-5d1ed0caeb334140935f1d035e89f128/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.13.0
+model_id: m-5d1ed0caeb334140935f1d035e89f128
+model_size_bytes: 55754
+model_uuid: m-5d1ed0caeb334140935f1d035e89f128
+prompts: null
+run_id: 97b37cdb7c8746d4939d3996f560a6ba
+signature:
+  inputs: '[{"type": "double", "name": "mean perimeter", "required": true}, {"type":
+    "double", "name": "mean area", "required": true}, {"type": "double", "name": "mean
+    smoothness", "required": true}, {"type": "double", "name": "mean concave points",
+    "required": true}, {"type": "double", "name": "mean fractal dimension", "required":
+    true}, {"type": "double", "name": "radius error", "required": true}, {"type":
+    "double", "name": "compactness error", "required": true}, {"type": "double", "name":
+    "worst radius", "required": true}, {"type": "double", "name": "worst texture",
+    "required": true}, {"type": "double", "name": "worst area", "required": true},
+    {"type": "double", "name": "worst smoothness", "required": true}, {"type": "double",
+    "name": "worst concave points", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-06-03 07:05:22.602885'
